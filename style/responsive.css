@@ -46,53 +46,25 @@
 
 @media (max-width: 425px) {
   section > h2 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
 
   section > h3 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   .info {
-    & > img {
-      width: 60px;
-      outline-width: 1px;
-    }
-
     & > h1 {
-      font-size: 0.7em;
+      font-size: 1.1em;
       margin-top: 30px;
-
-      & span:nth-of-type(2) {
-        font-size: 1.6rem;
-      }
     }
 
     & > p {
-      font-size: 0.6rem;
-      max-width: 250px;
+      max-width: 400px;
     } 
 
     .container-tools {
       gap: 8px;
-    }
-
-    .card-tool {
-      height: 20px;
-
-      & > img{
-        width: 20px;
-        padding-left: 5px;
-      }
-      & > p {
-        font-size: 0.5rem;
-        padding-right: 5px;
-      }
-    }
-
-    & i {
-      font-size: 20px;
-      margin-top: 10px;
     }
   }
 
@@ -104,13 +76,8 @@
 
 
   .contato {
-    
-    & > p {
-      font-size: 0.8rem;
-    }
-
     .container-contatos {
-      margin-block: 20px 60px;
+      margin-block: 40px 60px;
     }
 
     .card-contato {
