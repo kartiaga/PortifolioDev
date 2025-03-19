@@ -35,6 +35,14 @@
 
   margin-top: 16px;
 
+  &:hover {
+    outline: solid var(--blue);
+  }
+
+  &:hover .left > i {
+    color: var(--blue);
+  }
+
   & .left {
     display: flex;
     align-items: center;
