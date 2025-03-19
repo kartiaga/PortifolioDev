@@ -1,0 +1,43 @@
+.services {
+  background-color: var(--gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & h2{
+    margin-top: 88px;
+  }
+}
+
+.container-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  margin-block: 88px 120px;
+}
+
+.card-services {
+  border: solid 2px var(--gray-200);
+  border-radius: 12px;
+
+  width: 280px;
+
+
+  & i {
+    font-size: 48px;
+    display: block;
+    margin: 20px 0 0 20px;
+  }
+
+  & h4 {
+    font: var(--title-sm);
+    color:var(--gray-600);
+    margin: 20px 20px 8px;
+  }
+
+  & p {
+    font: var(--text-sm);
+    margin: 0 20px 20px;
+  }
+}

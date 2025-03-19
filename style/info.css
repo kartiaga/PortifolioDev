@@ -77,5 +77,6 @@
 
 .info i {
   font-size: 32px;
+  color: var(--gray-400);
   margin-top: 92px;
 }
