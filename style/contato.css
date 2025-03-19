@@ -1,0 +1,53 @@
+.contato {
+  background-image: url(../assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & h2 {
+    color: var(--purple);
+    margin-top: 128px;
+  }
+
+  & > p {
+    font: var(--text-md);
+    margin-top: 8px;
+  }
+}
+
+.container-contatos {
+  margin-block: 48px 200px;
+}
+
+.card-contato {
+  background-color: var(--gray-300);
+  width: 400px;
+  height: 68px;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 16px;
+
+  & .left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    margin-left: 20px;
+  }
+
+  & p {
+    font: 500 1rem/140% var(--font-family-text);
+  }
+
+  & > img {
+    margin-right: 24px;
+  }
+}
