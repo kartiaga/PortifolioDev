@@ -1,0 +1,44 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-projects {
+  margin-block: 56px 144px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card-project {
+  background-color: var(--gray-300);
+
+  max-width: 330px;
+  border-radius: 12px;
+
+  & img {
+    max-width: 306px;
+    border-radius: 8px;
+
+    margin: 12px;
+  }
+
+  & h4, p {
+    margin-inline: 12px;
+  }
+
+  & h4 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+
+    padding-block: 12px 8px;
+  }
+  
+  & p {
+    font: var(--text-sm);
+
+    padding-bottom: 20px;
+  }
+}
