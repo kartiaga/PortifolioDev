@@ -41,13 +41,26 @@
     gap: 12px;
 
     margin-left: 20px;
+
+    /* &:hover .left > i {
+      color: var(--blue);
+    } */
+
+    & > i {
+      font-size: 28px;
+      color: var(--gray-400);
+    }
   }
 
   & p {
     font: 500 1rem/140% var(--font-family-text);
   }
 
-  & > img {
+  & > i {
+    font-size: 20px;
+    color: var(--blue);
+    display: block;
     margin-right: 24px;
   }
+
 }
