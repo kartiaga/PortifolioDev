@@ -16,6 +16,7 @@
   background-color: var(--gray-300);
 
   max-width: 330px;
+  min-height: 17.6rem;
   border-radius: 12px;
 
   &:hover {
